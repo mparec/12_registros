@@ -48,7 +48,7 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		if (SV[i] > 100) {
 			E[i].salario *= 1.1;
-			cout << "EMPLEADO N" << i + 1 << ": " <<E[i].salario;
+			cout << "EMPLEADO N" << i + 1 << ": " <<E[i].salario << endl;
 		}
 	}
 	
